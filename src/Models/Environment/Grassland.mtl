@@ -1,0 +1,18 @@
+newmtl Grassland1Mtl
+Material Color
+Ka 0.0169881 0.215764 0.0600316
+Kd 0.0169881 0.215764 0.0600316
+Ks 0.000466339 0.00592294 0.00164793 
+
+d 1
+
+Ns 0
+
+map_Ka Grassland1_diff.png
+map_Kd Grassland1_diff.png
+map_d Grassland1_diff.png
+
+map_Bump Grassland1_nmap.png
+
+map_Ns Grassland1_spec.png
+

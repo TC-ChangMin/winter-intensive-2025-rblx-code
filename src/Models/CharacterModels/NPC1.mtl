@@ -1,0 +1,32 @@
+newmtl Npc11Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0509804 0.0509804 0.0509804 
+
+d 1
+
+Ns 0
+
+map_Ka Npc11_diff.png
+map_Kd Npc11_diff.png
+map_d Npc11_diff.png
+
+newmtl Npc12Mtl
+Material Color
+Ka 0.0160677 0.0581872 0.022013
+Kd 0.0160677 0.0581872 0.022013
+Ks 0.000819138 0.00296641 0.00112223 
+
+d 1
+
+Ns 0
+
+map_Ka Npc12_diff.png
+map_Kd Npc12_diff.png
+map_d Npc12_diff.png
+
+map_Bump Npc12_nmap.png
+
+map_Ns Npc12_spec.png
+
