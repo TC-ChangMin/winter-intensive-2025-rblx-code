@@ -7,8 +7,7 @@ A small Roblox tower defense game for a school project
 [Gif for downloading and running the game]
 
 
-2. To play the game open it up with this roblox redirect link -> [Link to game]
-
+2. To play the game open it up with this roblox redirect link -> https://www.roblox.com/games/114457019372545/Very-Bad-TD-Game#!/about
 [Gif for going through the game link and playing it on Roblox]
 
 3. Here is a game Demo video
