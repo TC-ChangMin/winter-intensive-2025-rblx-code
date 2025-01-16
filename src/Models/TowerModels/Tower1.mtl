@@ -1,0 +1,28 @@
+newmtl Tower11Mtl
+Material Color
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.0509804 0.0509804 0.0509804 
+
+d 1
+
+Ns 0
+
+newmtl Tower12Mtl
+Material Color
+Ka 0 0.0103978 0.116576
+Kd 0 0.0103978 0.116576
+Ks 0 0.000530084 0.00594308 
+
+d 1
+
+Ns 0
+
+map_Ka Tower12_diff.png
+map_Kd Tower12_diff.png
+map_d Tower12_diff.png
+
+map_Bump Tower12_nmap.png
+
+map_Ns Tower12_spec.png
+
