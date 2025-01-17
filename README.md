@@ -1,6 +1,6 @@
 # ACS 2025 Winter Intensive 
 A small Roblox tower defense game for a school project.
-Special thanks to "GnomeCode" on youtube for providing tutorials on how the roblox physics engine works, as well as much of the lua scripting interaction for game physics. Other parts were taken from roblox forums and asking friends who've developed games. This game was made in a week with no knowledge of Lua or Roblox Studios.
+Special thanks to "GnomeCode" on youtube for providing tutorials on how the roblox physics engine works, as well as much of the lua scripting interaction for game physics, e.g. how to connect to certain built in features within the roblox studios engine. Other parts were taken from roblox forums and asking friends who've developed games. This game was made in a week with no knowledge of Lua or Roblox Studios.
 
 -> https://www.youtube.com/@GnomeCode/videos
 
