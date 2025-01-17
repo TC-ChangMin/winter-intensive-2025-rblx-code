@@ -1,5 +1,7 @@
 # ACS 2025 Winter Intensive 
 A small Roblox tower defense game for a school project
+Special thanks to "GnomeCode" on youtube for providing tutorials on how the roblox physics engine works.
+-> https://www.youtube.com/@GnomeCode/videos
 
 # Important
 1. Everything in the source folder is meant as backup/proof of work. It is not meant to be replicated maually. To download the game and host it on your own Roblox Studios, download the [Game Name].rblx file then open it in your roblox studios editor.

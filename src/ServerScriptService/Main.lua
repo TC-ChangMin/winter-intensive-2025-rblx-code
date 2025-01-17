@@ -1,5 +1,5 @@
--- main game loop
 local mob = require(script.Mob)
+local tower = require(script.Tower)
 local map = workspace.Grassland
 
 for wave=1, 5 do
