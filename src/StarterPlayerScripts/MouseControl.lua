@@ -1,3 +1,4 @@
+local PhysicsService = game:GetService("PhysicsService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -26,6 +27,13 @@ local function AddTempTower(name)
 	if towerExists then
 		towerToSpawn = towerExists:Clone()
 		towerToSpawn.Parent = workspace.Towers
+		
+		for i, object in ipairs(towerToSpawn:GetDescendants()) do
+			if object:IsA("BasePart") then
+				object.CollisionGroup = "Tower"
+				object.Material = Enum.Material.ForceField
+			end
+		end
 	end
 end
 
@@ -47,7 +55,7 @@ RunService.RenderStepped:Connect(function()
 		local result = MouseRaycast({towerToSpawn})
 		if result and result.Instance then
 			local x = result.Position.X
-			local y = result.Position.Y
+			local y = result.Position.Y + towerToSpawn["Left Leg"].Size.Y + (towerToSpawn.PrimaryPart.Size.Y / 2)
 			local z = result.Position.Z
 			
 			local cframe = CFrame.new(x,y,z)
